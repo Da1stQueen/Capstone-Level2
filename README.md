@@ -9,3 +9,14 @@ gh auth login
 git config user.name "Da1stQueen"
 git config user.email "da1stqueen@gmail.com"
 git push -u origin main
+
+//ADD USER INFORMATION TO README FILE
+ git commit -m"
+ 
+ //ATTACHED DESCRIPTON TO THE SAVE POINT -MEMO
+ git commit "i added user info to readme"
+ 
+//ADD CHANGES OF ALL FILES
+git add .
+
+git push -u origin main
