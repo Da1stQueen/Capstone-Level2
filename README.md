@@ -17,7 +17,7 @@ git push -u origin main
 git add .
 
 //ADD USER INFORMATION TO README FILE
- git commit -m"
+ git commit -m "enter a commit"
  
  //ATTACHED DESCRIPTON TO THE SAVE POINT -MEMO
  git commit "i added user info to readme"
