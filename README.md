@@ -20,7 +20,7 @@ git add .
  git commit -m "enter a commit"
  
  //ATTACHED DESCRIPTON TO THE SAVE POINT -MEMO
- git commit "i added user info to readme"
+ "i added user info to readme"
 
 //Make files get hub
 git push origin main
