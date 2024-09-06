@@ -39,3 +39,9 @@ git init
 
 //RENAMES THE CURRENT BRANCH TO MAIN
 git branch -M main
+
+//
+GET
+
+//SYNC CHANGES TO GITHUB
+git push
