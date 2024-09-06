@@ -25,6 +25,15 @@ git add .
 //SYNC CHANGES TO GITHUB
 git push origin main
 
+//PUSHES CHANGE TO THE ORIGIN'S MAIN BRANCH AND SAVE THE PARAMETERS
+git push
+
+//COPY THE FILES FROM GITHUB
+git pull --set- upstream origin mail
+
+//COPY THE FILES FROM GITHUBWITH THE DEFAULT PARAMETERS
+git pull
+
 //VIEW THE VALUE OF ORIGIN
 git remote -v
 
