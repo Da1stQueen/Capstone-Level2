@@ -22,6 +22,9 @@ git add .
  //ATTACHED DESCRIPTON TO THE SAVE POINT -MEMO
  "i added user info to readme"
 
-//Make files get hub
+//SYNC CHANGES TO GITHUB
 git push origin main
+
+//VIEW THE VALUE OF ORIGIN
+git remote -v
 
