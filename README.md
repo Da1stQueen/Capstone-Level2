@@ -7,14 +7,27 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Da1stQueen/erica-h-7-26-24-multi-page-website-capstone-project-bdheimd47584nr84h4n.git
 curl -sS https://webi.sh/gh | sh
+gh auth login
+git push --set-upstream origin main
 
+//PUSHES CHANGES TO THE ORIGIN'S MAIN BRANCH AND SAVES THE PARAMETERS
+git push -u origin main
+
+//ADD CHANGES THAT WERE MADE TO THE README FILE
+git add README.md
+
+//ADD CHANGES THAT WERE MADE IN ALL FILES AND FOLDERS
+git add .
+
+//CREATE A DAVE POINT 
+ git commit -m "enter a commit"
+ 
 //Press enter to select all the defaults. Remember to copy device link and enter the code.
 gh auth login
 
-git push -u origin main
 
-//ADD CHANGES OF ALL FILES
-git add .
+
+
 
 //ADD USER INFORMATION TO README FILE
  git commit -m "enter a commit"
@@ -25,8 +38,7 @@ git add .
 //SYNC CHANGES TO GITHUB
 git push origin main
 
-//PUSHES CHANGE TO THE ORIGIN'S MAIN BRANCH AND SAVE THE PARAMETERS
-git push
+
 
 //COPY THE FILES FROM GITHUB
 git pull --set- upstream origin mail
