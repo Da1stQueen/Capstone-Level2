@@ -19,29 +19,23 @@ git add README.md
 //ADD CHANGES THAT WERE MADE IN ALL FILES AND FOLDERS
 git add .
 
-//CREATE A DAVE POINT 
- git commit -m "enter a commit"
+//CREATE A DAVE POINT AND ATTACH A MEMO TO IT
+ git commit -m "I added user info to readme"
  
+ //SYNC CHANGES TO GITHUB
+git push origin main
+
+//COPY THE FILES FROM GITHUB
+git pull --set- upstream origin mail
+
 //Press enter to select all the defaults. Remember to copy device link and enter the code.
 gh auth login
-
-
-
-
 
 //ADD USER INFORMATION TO README FILE
  git commit -m "enter a commit"
  
  //ATTACHED DESCRIPTON TO THE SAVE POINT -MEMO
  "i added user info to readme"
-
-//SYNC CHANGES TO GITHUB
-git push origin main
-
-
-
-//COPY THE FILES FROM GITHUB
-git pull --set- upstream origin mail
 
 //COPY THE FILES FROM GITHUBWITH THE DEFAULT PARAMETERS
 git pull
@@ -61,8 +55,3 @@ git init
 //RENAMES THE CURRENT BRANCH TO MAIN
 git branch -M main
 
-//
-GET
-
-//SYNC CHANGES TO GITHUB
-git push
