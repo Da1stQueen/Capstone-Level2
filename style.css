@@ -1,3 +1,28 @@
 *{
-  m-5, p-5, border
+  text-decoration:none;
+  font-family: sans-serif;
+}
+
+body{
+ color: #D3D3D3; 
+}
+
+header {
+  position-auto;
+  top:0;
+  width:100%;
+  text-align: center;
+  justify-content-center;
+  background-color: #D3D3D3;
+  padding:20px;
+}
+
+navlist a{
+  margin-right: 20px;
+  color: white;
+  font-size: 19px;
+}
+
+navlist a:hover{
+  color: orange
 }
