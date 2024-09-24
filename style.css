@@ -64,7 +64,10 @@ service-content-col{
   margin-bottom:10px;
 }
 
-service-content
+service-content-hover{
+  background-color: #F5B041;
+}
+
 service-content h3{
   font-size: 25px;
   text-align:center;
