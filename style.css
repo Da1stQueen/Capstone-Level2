@@ -52,11 +52,27 @@ body {
 
 service-content-row{
   display:grid;
+  grid-template-columns:repeat(auto);
   gap: 20px;
 }
 
 service-content-col{
   padding: 25px;
   border:2px;
-  border-primary;
+  text-align:center;
+  color: #F5B041;
+  margin-bottom:10px;
+}
+
+service-content
+service-content h3{
+  font-size: 25px;
+  text-align:center;
+  margin-bottom:10px;
+}
+
+service-content p{
+  font-size: 25px;
+  text-align:center;
+  margin-bottom:10px;
 }
