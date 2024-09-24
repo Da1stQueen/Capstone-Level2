@@ -4,7 +4,7 @@
 }
 
 body{
- color: #D3D3D3; 
+ color: black; 
 }
 
 header {
@@ -12,9 +12,9 @@ header {
   top:0;
   width:100%;
   text-align: center;
-  justify-content-center;
+  justify-content-left;
   background-color: black;
-  padding:20px;
+  padding:0;
 }
 
 navlist a{
