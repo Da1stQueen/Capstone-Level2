@@ -1,3 +1,4 @@
+*/INDEX/*
 *{
   text-decoration:none;
   font-family: sans-serif;
@@ -22,7 +23,20 @@ body. navlist a{
   color: green;
   font-size: 19px;
 }
-
+.nav_links{
+  width:100%;
+  padding:2px;
+  text-align:center;
+  background-color: #e82574;
+}
 navlist a:hover{
   color: orange
+}
+
+.btn {
+  padding: 1px;
+    font-size: 1px;
+  font-color: white;
+  background-color: #e82574;
+  border-radius:5px;
 }
