@@ -16,7 +16,7 @@ padding:1;
 background: primary;
 border-radius:5;
 color: white;
-font-size: 12;
+font-size: 1.7;
 cursor:pointer;
 }
 
@@ -25,7 +25,7 @@ background:secondary;
 }
 
 section{
-padding:7%;
+padding:5rem 7%;
 }
 
 .header {
@@ -63,14 +63,17 @@ display: none;
   display: flex;
   gap: 1.5rem;
   background: #eee;
-  padding: 2;
-  border-radius: 5rem; 
+  padding: 2rem;
+  border-radius: .5rem; 
 }
 
 .availability form .box{
   flex: 1 1 20rem;
 }
 
+.availability form .box p{
+  flex: 1 1 20rem;
+}
 .availability form .box .input{
   width: 100%;
   padding: 1 rem;
