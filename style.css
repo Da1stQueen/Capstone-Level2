@@ -84,10 +84,21 @@ display: none;
   border-radius: .5rem;
 }
 
+/*About*/
 
+.about .row{
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
 
+.about .row image{
+  flex: 1 1 30rem;
+}
 
-
+.about .row .content{
+  
+}
 
 
 
