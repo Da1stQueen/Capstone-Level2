@@ -60,15 +60,15 @@ display: none;
 /* availability*/
 
 .availability form{
-  display: none;
-  gap: 1%;
+  display: flex;
+  gap: 1.5rem;
   background: #eee;
-  padding: 1;
+  padding: 2;
   border-radius: 5rem; 
 }
 
 .availability form .box{
-  flex: 1;
+  flex: 1 1 20rem;
 }
 
 .availability form .box .input{
@@ -76,7 +76,7 @@ display: none;
   padding: 1 rem;
   font-size: 5px;
   color: black;
-  margin: 0;
+  margin: 0%;
   border-radius: .5rem;
 }
 
