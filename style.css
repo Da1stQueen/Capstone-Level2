@@ -24,7 +24,7 @@ cursor:pointer;
 background:secondary;
 }
 
-header {
+.header {
   position-fixed;
   top:0; left:0; right:0;
   width:100%;
@@ -34,17 +34,17 @@ header {
   padding:2;
 }
 
-.header navbar a{
+.header .navbar a{
 font-size:17px;
 color: black;
 margin:1;
 }
 
-.header navbar a: hover{
+.header .navbar a: hover{
 color: primary;
 }
 
-.header navbar .btn{
+.header .navbar .btn{
 margin-top: 0%
 color: white;
 }
