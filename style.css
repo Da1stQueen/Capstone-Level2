@@ -2,20 +2,55 @@
 *{
   text-decoration:none;
   font-family: sans-serif;
+margin: 0; padding:0;
 }
 
-body{
- color: black; 
+html{
+font-size:62%;
+}
+
+.btn{
+display: incline-block;
+margin-top:1;
+padding:1;
+background: primary;
+border-radius:5;
+color: white;
+font-size: 17;
+cursor:pointer;
+}
+
+.btn: hover;{
+background:secondary;
 }
 
 header {
-  position-auto;
-  top:0;
+  position-fixed;
+  top:0; left:0; right:0;
   width:100%;
-  text-align: center;
-  justify-content-left;
-  background-color: black;
-  padding:0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding:2;
+}
+
+.header navbar a{
+font-size:17px;
+color: black;
+margin:1;
+}
+
+.header navbar a: hover{
+color: primary;
+}
+
+.header navbar .btn{
+margin-top: 0%
+color: white;
+}
+
+#menu-btn{
+display: none;
 }
 
 body. navlist a{
