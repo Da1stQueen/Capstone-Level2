@@ -6,7 +6,7 @@ margin: 0; padding:0;
 }
 
 html{
-font-size:62%;
+font-size:20%;
 }
 
 .btn{
@@ -16,7 +16,7 @@ padding:1;
 background: primary;
 border-radius:5;
 color: white;
-font-size: 17;
+font-size: 12;
 cursor:pointer;
 }
 
@@ -33,13 +33,13 @@ padding:7%;
   top:0; left:0; right:0;
   width:100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: white;
   padding:2;
 }
 
 .header .navbar a{
-font-size:17px;
+font-size:5px;
 color: black;
 margin:1;
 }
@@ -60,61 +60,46 @@ display: none;
 /* availability*/
 
 .availability form{
-  display: flex;
-  gap: 1.5%;
+  display: none;
+  gap: 1%;
   background: #eee;
-  padding: 2;
+  padding: 1;
   border-radius: 5rem; 
 }
 
 .availability form .box{
-  flex: 1 1 20rem;
+  flex: 1;
 }
 
-.availability form
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body. navlist a{
-  margin-right: 20px;
-  color: green;
-  font-size: 19px;
-}
-.nav_links{
-  width:100%;
-  padding:2px;
-  text-align:center;
-  background-color: #e82574;
-}
-navlist a:hover{
-  color: orange
+.availability form .box .input{
+  width: 100%;
+  padding: 1 rem;
+  font-size: 5px;
+  color: black;
+  margin: 0;
+  border-radius: .5rem;
 }
 
-.btn {
-  padding: 1px;
-    font-size: 1px;
-  font-color: white;
-  background-color: #e82574;
-  border-radius:5px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Sevice*/
