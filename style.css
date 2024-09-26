@@ -24,6 +24,10 @@ cursor:pointer;
 background:secondary;
 }
 
+section{
+padding:7%;
+}
+
 .header {
   position-fixed;
   top:0; left:0; right:0;
@@ -52,6 +56,42 @@ color: white;
 #menu-btn{
 display: none;
 }
+
+/* availability*/
+
+.availability form{
+  display: flex;
+  gap: 1.5%;
+  background: #eee;
+  padding: 2;
+  border-radius: 5rem; 
+}
+
+.availability form .box{
+  flex: 1 1 20rem;
+}
+
+.availability form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 body. navlist a{
   margin-right: 20px;
