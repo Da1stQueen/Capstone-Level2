@@ -164,3 +164,37 @@ service-content p{
   text-align:center;
   margin-bottom:10px;
 }
+
+/*Rooms*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  letter-spacing: .5px;
+}
+
+
+.card-container{
+  width: 80%
+    margin: 4rem auto;
+  background-color: #00FFFF
+    display: grid;
+  grid template-columns:repeat (4, 1 fr);
+}
+
+
+.card{
+ padding: 2rem;
+  box-shadow: 0 0 .4rem .4rem #0000FF;
+  transition: .4s ease-in;
+}
+
+.card: hover{
+background-color: #DC143C;
+}
+
+.card-heading{
+  color: B22222;
+  margin-bottom: .5rem;
+}
